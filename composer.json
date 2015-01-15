@@ -1,0 +1,30 @@
+{
+  "name": "tyrola/redis-session-handler-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony2 Redis Session Handler Bundle",
+  "keywords": ["redis", "session", "symfony2"],
+  "homepage": "https://tyrola.at",
+  "authors": [
+    {
+      "name": "Alexander Birkner",
+      "email": "alex.birkner@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/framework-bundle": "~2.1",
+    "symfony/security-bundle": "~2.1"
+  },
+  "require-dev": {
+    "symfony/class-loader": "~2.1"
+  },
+  "autoload": {
+    "psr-0": { "BirknerAlex\\RedisSessionHandlerBundle": "" }
+  },
+  "target-dir": "BirknerAlex/RedisSessionHandlerBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
