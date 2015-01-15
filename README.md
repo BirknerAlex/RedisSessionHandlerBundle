@@ -66,7 +66,7 @@ Open the app/config/config.yml File and add these following lines:
 
 You're done!
 
-###3 Optional: More configuration
+### Optional: More configuration
 
     # app/config/config.yml
     redis_session_handler:
