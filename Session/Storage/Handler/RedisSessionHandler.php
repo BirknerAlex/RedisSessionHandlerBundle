@@ -85,7 +85,7 @@ class RedisSessionHandler implements SessionHandlerInterface
      */
     public function write($sessionId, $data)
     {
-        return $this->redis->set($this->prefix.$sessionId, $data, ['xx', 'ex'=>$this->ttl]);
+        return $this->redis->setex($this->prefix.$sessionId, $this->ttl, $data);
     }
 
     /**

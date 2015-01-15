@@ -3,7 +3,9 @@ Getting Started With RedisSessionHandlerBundle
 
 ## Prerequisites
 
-This Bundle requires Symfony 2.1.
++ Symfony 2.1 or newer
++ PHP 5.4 or newer
++ PHP PhpRedis extension
 
 ## Installation
 
