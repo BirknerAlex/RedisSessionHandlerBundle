@@ -25,7 +25,7 @@ Just check on [Packagist](http://packagist.org/packages/tyrola/redis-session-han
 {
     "require": {
         // ...
-        "tyrola/redis-session-handler-bundle": "dev-master"
+        "tyrola/redis-session-handler-bundle": "1.0"
     }
 }
 ```
