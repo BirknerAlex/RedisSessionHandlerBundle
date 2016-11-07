@@ -25,7 +25,7 @@ Just check on [Packagist](http://packagist.org/packages/tyrola/redis-session-han
 {
     "require": {
         // ...
-        "tyrola/redis-session-handler-bundle": "1.0"
+        "tyrola/redis-session-handler-bundle": "1.1"
     }
 }
 ```
@@ -55,10 +55,11 @@ Open the app/config/config.yml File and add these following lines:
     # app/config/config.yml
 
     framework:
-        framework:
+        session:
             handler_id:  redis.session.handler
 
     redis_session_handler:
+        class: BirknerAlex\RedisSessionHandlerBundle\Session\Storage\Handler\RedisSessionHandler
         host: "127.0.0.1" # Your redis hostname
         port: 6379 # Your redis port
         database: 0 # Your redis database id (Default is 0)
